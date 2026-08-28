@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asesor log&iacute;stico | Global Trade</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="asesor-page">
+
+<nav class="nav">
+  <h2>Global Trade</h2>
+  <div class="nav-links">
+    <a href="enviado correcto.html">Solicitud</a>
+    <a href="mys.html">Inicio</a>
+  </div>
+</nav>
+
+<main class="advisor-shell">
+  <section class="advisor-panel">
+    <div class="advisor-header">
+      <div class="advisor-avatar">GT</div>
+      <div>
+        <h1>Asesor de operaciones</h1>
+        <p><span></span> En l&iacute;nea ahora</p>
+      </div>
+    </div>
+
+    <div class="chat-window" id="chatWindow">
+      <div class="message advisor">
+        <strong>Marina - Global Trade</strong>
+        <p>Hola, ya recibimos tu solicitud. Estoy revisando transporte, aduana y seguro para preparar una respuesta.</p>
+        <small>09:42</small>
+      </div>
+
+      <div class="message user">
+        <p>Perfecto, necesito saber si falta alguna documentaci&oacute;n.</p>
+        <small>09:43</small>
+      </div>
+
+      <div class="message advisor">
+        <strong>Marina - Global Trade</strong>
+        <p>Por ahora figura pendiente la validaci&oacute;n aduanera. Si la carga requiere permisos especiales te aviso antes de avanzar.</p>
+        <small>09:44</small>
+      </div>
+    </div>
+
+    <div class="quick-actions">
+      <button type="button" data-message="Quiero consultar el estado del paquete">Estado del paquete</button>
+      <button type="button" data-message="Necesito ayuda con aduana">Aduana</button>
+      <button type="button" data-message="Quiero agregar seguro a la carga">Seguro</button>
+    </div>
+
+    <form class="advisor-input" id="advisorForm">
+      <input id="advisorMessage" type="text" placeholder="Escrib&iacute; tu consulta..." autocomplete="off">
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <aside class="case-panel">
+    <h2>Operaci&oacute;n GT-28491</h2>
+
+    <div>
+      <span>Estado</span>
+      <strong>En revisi&oacute;n</strong>
+    </div>
+
+    <div>
+      <span>Asesor asignado</span>
+      <strong>Marina Sosa</strong>
+    </div>
+
+    <div>
+      <span>Pr&oacute;ximo paso</span>
+      <strong>Validaci&oacute;n documental</strong>
+    </div>
+
+    <a href="enviado correcto.html" class="btn ghost">Volver a la solicitud</a>
+  </aside>
+</main>
+
+<script src="asesor.js"></script>
+
+</body>
+</html>
